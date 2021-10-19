@@ -1,0 +1,570 @@
+
+@font-face {
+    font-family: 'cinnamon_cakeregular';
+    src: url('font/cinnamon_cake-webfont.woff2') format('woff2'),
+         url('font/cinnamon_cake-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'balonkuregular';
+    src: url('font/balonku-regular-webfont.woff2') format('woff2'),
+         url('font/balonku-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'ceriaregular';
+    src: url('font/merria-webfont.woff2') format('woff2'),
+         url('font/merria-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+
+
+body {
+
+    margin:0;
+    background-color: rgb(222, 241, 112);
+}
+
+
+/** NAV**/
+.menu {
+
+    background-color: #a9f80b;
+    width: 100%;
+    height: 5vh;
+}
+
+#liens li a {
+
+    text-decoration: none;
+    font-family: 'cinnamon_cakeregular';
+    color: beige;
+    font-size: 35px;
+  
+}
+
+#liens {
+
+    list-style: none; 
+   display: flex;
+justify-content: space-around;
+}
+
+/**NAV!**/
+
+
+
+
+
+
+
+
+
+
+/** HEADER**/
+
+#entete {
+
+    display: flex;
+    justify-content: space-around;
+    background-color: beige;
+    margin-top: 30px;
+}
+
+
+.header {
+
+    display: flex;
+  margin-top: 30px;
+}
+#book {
+
+  width: 350px;
+  height: 450px;
+  margin-left: 110px;
+
+}
+
+
+
+.suite {
+
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-left: 65px;
+ }
+
+
+.lep {
+
+    font-family: 'cinnamon_cakeregular';
+font-size: 100px;
+color:#ffae00;
+margin:0;
+}
+
+.lep2 {
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: beige;
+    font-size: 23px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 0px;
+}
+
+.lep3 {
+
+    font-family:'cinnamon_cakeregular';
+    font-size: 20px;
+    text-align:center;
+    font-weight: bolder;
+   margin-top: 20px;
+}
+
+
+.ba {
+
+    margin-top: 50px;
+width: 210px;
+height: 90px;
+border: none;
+border-radius: 50px;
+background-color: #a9f80b;
+font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+list-style: none;
+
+}
+
+
+.boutonaccueil {
+
+    text-decoration: none;
+    display: flex;
+    margin-top: 32px;
+    margin-left: 8px;
+    color: beige;
+}
+
+#papillons {
+
+height: 600px;
+width: 600px;
+}
+
+/**HEADER!**/
+
+
+
+
+
+
+
+
+
+
+/**LES LIVRES DU MOMENT**/
+
+.events {
+
+width: 100%;
+height: 32px;
+background-color:#ffae00;
+margin-top: 35px;
+
+}
+
+.llm {
+
+    display: flex;
+    justify-content: center;
+    font-family: 'cinnamon_cakeregular';
+    font-size: 25px;
+    color: beige;
+
+}
+
+
+#leslivresdumoment {
+
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: #a9f80b;
+  
+}
+
+.geante {
+
+height: 400px;
+width: 300px;
+
+}
+
+.lacantine {
+
+height: 400px;
+width: 300px;
+}
+
+.mimosetsam {
+
+    height: 400px;
+    width: 300px;
+}
+/**LES LIVRES DU MOMENT!**/
+
+
+
+
+
+
+
+
+
+
+
+/**LES EVENEMENTS A VENIR**/
+.evenements {
+
+    width: 100%;
+    height: 32px;
+    background-color:#ffae00;
+    margin-top: 35px;
+    
+    }
+    
+    .lesevents {
+    
+        display: flex;
+        justify-content: center;
+        font-family: 'cinnamon_cakeregular';
+        font-size: 25px;
+        color: beige;
+    }
+
+
+
+  
+
+    .pics {
+        display: flex;
+       justify-content: space-around;
+       background-color: #a9f80b;
+    }
+    .comite {
+height: 350px;
+width: 350px;
+    }
+
+  
+/**LES EVENEMENTS A VENIR!**/
+
+
+
+
+
+
+
+
+
+
+
+/**PRECEDEMMENT**/
+
+        .Pcdt {
+
+            display: flex;
+            justify-content: center;
+            font-family: 'cinnamon_cakeregular';
+            font-size: 25px;
+            color: beige;
+
+        }
+.oh {
+display: flex;
+justify-content:center;
+        width: 100%;
+        height: 32px;
+        background-color:#ffae00;
+        margin-top: 35px;
+         }
+
+        #trois{
+
+
+            margin-top: 30px;
+    background-color: #a9f80b;
+    display: flex;
+    justify-content: space-around;
+        }
+
+       .premierediv{
+
+        display: flex;
+       }
+
+       .deuxiemediv {
+
+        display: flex;
+       }
+
+.atelier {
+
+    font-family: 'cinnamon_cakeregular';
+        font-size: 25px;
+        text-align: center;
+        font-weight: bold;
+        margin-left: 30px;
+        
+}
+
+
+.atel2 {
+
+    
+    font-size: 15px;
+  text-align: center;
+}
+
+.autographe {
+
+    font-family: 'cinnamon_cakeregular';
+        font-size: 25px;
+        text-align: center;
+        font-weight: bold;
+}
+
+.auto2 {
+
+    font-size: 15px;
+    text-align: center;
+    margin-top: 49px;
+}
+
+.pdiv {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.ddiv{
+
+    display: flex;
+    flex-direction: column;
+ 
+}
+/**PRECEDEMMENT!**/
+
+
+
+
+
+
+
+/**NEWLETTERS**/
+
+.quatre {
+width: 100%;
+height: 32px;
+background-color:#ffae00;
+margin-top: 35px;
+ }
+
+ .newletters {
+    display: flex;
+    justify-content: center;
+    font-family: 'cinnamon_cakeregular';
+    font-size: 25px;
+    color: beige;
+ }
+
+ /**NEWLETTERS**!/
+
+
+
+
+
+
+ /**FORMULAIRE**/
+
+
+ #newletters {
+margin-top: 30px;
+    display: flex;
+ justify-content: space-around;
+ background-color: beige;
+}
+
+.inscription {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: beige;
+    width: 100%;
+}
+
+
+.insc {
+
+    margin-top: 30px;
+    font-family: 'cinnamon_cakeregular';
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+
+.pinsc {
+
+    display: flex;
+    text-align: center;
+}
+
+.pinsc2 {
+
+display: flex;
+text-align: center;
+}
+
+.leformulaire {
+    margin-top: 0px;
+    margin-right: 40px;
+    background-color: beige;
+}
+
+ form { 
+ margin: 0 auto;
+ width: 400px;
+ padding: 1em;
+ background-color: #a9f80b;
+ border: 1px solid #a9f80b;
+ border-radius: 1em;
+
+
+}
+
+form div + div {
+    margin-top: 1em;
+    font-family: 'cinnamon_cakeregular';
+  }
+  
+  label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    font-family: 'cinnamon_cakeregular';
+    font-size: 20px;
+  }
+  
+  input, textarea {
+ 
+   
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+  }
+  
+  input:focus, textarea:focus {
+    
+    border-color: #000;
+  }
+  
+  textarea {
+    vertical-align: top;
+    height: 5em;
+  }
+  
+  .button {
+
+    padding-left: 150px; 
+  
+  }
+
+  button {
+
+    margin-left: .5em;
+    font-family: 'cinnamon_cakeregular';
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  /**FORMULAIRE!**/
+
+
+
+
+
+
+  /**FOOTER**/
+
+
+  #footer {
+
+    margin-top: 30px;
+    background-color:#ffae00;
+    width: 100%;
+    height: 170px;
+display: flex;
+justify-content: space-around;
+  }
+
+  .ml0 {
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ml {
+
+    font-family: 'cinnamon_cakeregular';
+    color: beige;
+    font-size: 20px;
+   
+  }
+
+  .ps {
+    font-family: 'cinnamon_cakeregular';
+    color: beige;
+    font-size: 20px;
+   
+  }
+
+  .rs {
+    font-family: 'cinnamon_cakeregular';
+    color: beige;
+    font-size: 20px;
+   
+  }
+
+  .reseaux {
+
+    width: 50px;
+    height: 50px;
+  }
+
+  .paiement {
+
+    height: 30px;
+    width: 50px;
+  }
